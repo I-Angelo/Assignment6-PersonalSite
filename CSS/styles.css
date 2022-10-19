@@ -1,0 +1,57 @@
+body {background-color: aliceblue;}    /*Changes the apperance of properties of HTML . As part of the CSS syntax 'selector{property:value;}' .
+'Selector' is the WHO of what do you want to sytle .
+The 'Property' is the WHAT do you want to change to the poperty
+The 'Value' is the HPOW you wnat to change the property .
+**ALL of the above is on all the examples on this external CSS code** */
+
+hr {border-style: none;
+border-top-style: dotted;
+border-color: cadetblue;
+width: 12%;
+border-width: 6px;} 
+
+h1 {color: #2C3639;
+    text-shadow: 2px 2px 4px #3F4E4F} /* provide more decorations to the ,h1> titles on the website. */
+
+#ProfilePic:hover {
+             border-radius: 100%;
+             filter: grayscale(70%);
+             }
+
+/* *{
+  border: solid red;
+} */
+
+.s-pic {
+  flex-direction: row;
+  width: 100%;
+  margin: 0px;
+}
+
+#ball {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  margin-left: 400px;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(220, 140, 12);
+
+}
+
+a:hover {
+  color: rgb(6, 106, 139);
+  
+}
+
+a:active {
+  color: greenyellow;
+}
+.links {
+  padding-top: 50px;
+  text-align: center;
+}
